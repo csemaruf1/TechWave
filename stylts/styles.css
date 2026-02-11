@@ -204,11 +204,132 @@ nav{
     color: #FFFFFF;
     line-height: 20px;
 }
+/* card section */
+.ti h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    width: 1200px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.card{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    width: 1200px;
+    height: 783px;
+    margin: 0 auto;
+    margin-top: 40px;
 
-
-
-
-
+}
+.audio{
+    grid-row: span 2;
+    width: 380px;
+    height: 480px;
+    /* border: 2px solid red; */
+    padding: 40px 40px;
+    box-shadow: 0 4px 10px rgba(159, 159, 217, 0.957);
+    border-radius: 40px;
+    align-items: center;
+}
+.audio h3{
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+.audio p{
+    font-size: 16px;
+    /* font-weight: 400; */
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.mobail{
+    grid-column: span 2;
+    width: 790px;
+    height: 225px;
+    padding: 40px 40px;
+    box-shadow: 0 4px 10px rgba(159, 159, 217, 0.957);
+    border-radius: 40px;
+}
+.mobail h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.mobail p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.global{
+    grid-column: span 2;
+    width: 790px;
+    height: 225px;
+    padding: 40px 40px;
+    box-shadow: 0 4px 10px rgba(159, 159, 217, 0.957);
+    border-radius: 40px;
+    /* margin-bottom: 100px; */
+}
+.global h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.global p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.exclusib{
+    grid-column: span 2;
+    width: 790px;
+    height: 225px;
+    padding: 40px 40px;
+    box-shadow: 0 4px 10px rgba(159, 159, 217, 0.957);
+    border-radius: 40px;
+    
+}
+.exclusib h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.exclusib p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.rich{
+    box-shadow: 0 4px 10px rgba(159, 159, 217, 0.957);
+    padding: 40px 40px;
+    border-radius: 40px;
+    width: 380px;
+    height: 230px;
+}
+.rich h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.rich p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
 
 
 
@@ -267,5 +388,31 @@ nav{
         width: 95%;
         margin-top: 80px;
         gap: 40px;
+    }
+    /* card start */
+    .ti h1{
+        font-size: 32px;
+        width: 400px;
+        height: 39px;
+        margin-bottom: 16px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .audio{
+        width: 400px;
+        height: 287px;
+    }
+    .mobail , .global{
+        width: 400px;
+        height: 215px;
+    }
+    .exclusib{
+        width: 400px;
+        height: 311px;
     }
 }
