@@ -378,12 +378,101 @@ section {
     color: #00FF88;
     margin-top: 12px;
 }
+/* host section */
+.meet{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
 
+}
+.host{
+    display: flex;
+    width: 1200px;
+    height: 280px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(159, 159, 217, 0.957);
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.kumar{
+    width: 896px;
+    height: 183px;
+    color: #FFFFFF;
+}
+.kumar h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.kumar p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.im{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.footer{
+  background: url("../assets/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px 50px;
+}
 
+.footer-content{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.logo{
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
 
+.tech{ color: white; }
+.wave{
+  background: linear-gradient(90deg, #ff00ff, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.lin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
 
+.lin p{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.lin img{
+  width: 18px;
+  height: 18px;
+}
+
+.copy{
+  font-size: 14px;
+  opacity: 0.85;
+}
 
 
 
@@ -489,6 +578,40 @@ section {
     width: 100%;
     height: 200px;
   }
+    .host{
+        flex-direction: column;
+        text-align: center;
+        width: 400px;
+        height: 483px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .km{
+        width: 352px;
+        height: 168px;
+        margin: 0 auto;
+    }
+    .icon{
+        justify-content: center;  
+        flex-wrap: wrap;
+    }
 
+    .logo{
+    font-size: 32px;
+  }
 
+  .lin{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .lin p{
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .copy{
+    font-size: 13px;
+  }
 }
